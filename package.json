@@ -1,0 +1,39 @@
+{
+  "name": "silverstripe-skeleton",
+  "version": "1.0.0",
+  "description": "SilverStripe base project skeleton.",
+  "main": "themes/default/dist/app.js",
+  "author": "Ben Manu <bmanu10@gmail.com>",
+  "private": true,
+  "scripts": {
+    "once": "node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "test": "karma start karma.conf.js"
+  },
+  "engines": {
+    "node": ">=6.9"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "laravel-mix": "^0.12.0",
+    "vue": "^2.2.6"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-vue": "^2.0.1",
+    "jasmine-core": "^2.6.1",
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.1.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-spec-reporter": "^0.0.31",
+    "karma-webpack": "^2.0.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "plugins": [
+        "transform-object-rest-spread",
+        "transform-object-assign"
+    ],
+    "presets": [
+        ["env", {
+            "modules": false,
+            "targets": {
+                "browsers": ["> 2%"],
+                "uglify": true
+            }
+        }]
+    ]
+}

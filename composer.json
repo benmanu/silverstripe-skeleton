@@ -1,0 +1,24 @@
+{
+	"name": "silverstripe/skeleton",
+	"description": "SilverStripe base project skeleton.",
+	"require": {
+		"php": ">=5.5",
+		"silverstripe/cms": "^3.5@stable",
+		"silverstripe/framework": "^3.5@stable",
+		"silverstripe/dynamodb": "^2.0@stable",
+		"silverstripe/environmentcheck": "^1.0@stable",
+		"silverstripe/crontask": "^1.1",
+		"silverstripe-australia/gridfieldextensions": "^1.4",
+		"benmanu/silverstripe-simple-styleguide": "^1.1"
+	},
+	"require-dev": {
+		"phpunit/PHPUnit": "~3.7@stable",
+		"squizlabs/php_codesniffer": "^2.8",
+		"dnadesign/silverstripe-populate": "dev-master"
+	},
+	"config": {
+		"process-timeout": 600
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
