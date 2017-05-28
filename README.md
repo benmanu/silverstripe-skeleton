@@ -28,6 +28,9 @@ Web components | | [ ] | [ ]
 SilverStripe editor css | | [x] | [x]
 SilverStripe dev fixtures | [populate](https://github.com/dnadesign/silverstripe-populate) | [x] | [ ]
 SilverStripe `/mysite` boilerplate | | [ ] | [ ]
+Vagrant box | | [ ] | [ ]
+Docker image | | [ ] | [ ]
+CI/CD integration | | [ ] | [ ]
 
 ### SilverStripe Modules
 - [CMS](https://github.com/silverstripe/silverstripe-cms)
