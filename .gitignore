@@ -26,7 +26,4 @@ queuedjobs/
 simple-styleguide/
 gridfieldextensions/
 queuedjobs/
-
-mix-manifest.json
 node_modules/
-themes/default/dist/
